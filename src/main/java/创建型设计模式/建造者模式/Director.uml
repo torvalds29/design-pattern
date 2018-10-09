@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>创建型设计模式.建造者模式.Director</OriginalElement>
+  <nodes>
+    <node x="14.5" y="242.0">创建型设计模式.建造者模式.Director</node>
+    <node x="0.0" y="0.0">创建型设计模式.建造者模式.Director.Builder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="创建型设计模式.建造者模式.Director.Builder" target="创建型设计模式.建造者模式.Director">
+      <point x="24.625" y="96.0" />
+      <point x="123.125" y="217.0" />
+      <point x="119.5" y="217.0" />
+      <point x="21.0" y="-61.5" />
+    </edge>
+    <edge source="创建型设计模式.建造者模式.Director" target="创建型设计模式.建造者模式.Director.Builder">
+      <point x="-63.0" y="-61.5" />
+      <point x="35.5" y="217.0" />
+      <point x="24.625" y="217.0" />
+      <point x="-73.875" y="96.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="187.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

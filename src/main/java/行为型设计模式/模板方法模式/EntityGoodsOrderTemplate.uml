@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>行为型设计模式.模板方法模式.EntityGoodsOrderTemplate</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">行为型设计模式.模板方法模式.OrderTemplate</node>
+    <node x="0.0" y="172.0">行为型设计模式.模板方法模式.EntityGoodsOrderTemplate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="行为型设计模式.模板方法模式.EntityGoodsOrderTemplate" target="行为型设计模式.模板方法模式.OrderTemplate">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="104.0" y="82.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>行为型设计模式.命令模式.Commond</OriginalElement>
+  <nodes>
+    <node x="-249.75" y="231.0">行为型设计模式.命令模式.Officer</node>
+    <node x="301.5" y="0.0">行为型设计模式.命令模式.Commond</node>
+    <node x="207.25" y="231.0">行为型设计模式.命令模式.Soldier</node>
+    <node x="-317.0" y="116.0">行为型设计模式.命令模式.Commander</node>
+    <node x="57.5" y="116.0">行为型设计模式.命令模式.Receiver</node>
+    <node x="18.25" y="219.0">行为型设计模式.命令模式.TidyCommond</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="行为型设计模式.命令模式.Soldier" target="行为型设计模式.命令模式.Commond">
+      <point x="50.5" y="-26.5" />
+      <point x="675.75" y="73.0" />
+      <point x="414.0" y="73.0" />
+      <point x="50.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.TidyCommond" target="行为型设计模式.命令模式.Receiver">
+      <point x="0.0" y="-38.5" />
+      <point x="419.75" y="181.0" />
+      <point x="408.1666666666667" y="181.0" />
+      <point x="-67.33333333333331" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.Officer" target="行为型设计模式.命令模式.Commond">
+      <point x="62.0" y="-26.5" />
+      <point x="253.25" y="181.0" />
+      <point x="258.5" y="181.0" />
+      <point x="258.5" y="83.0" />
+      <point x="339.0" y="83.0" />
+      <point x="-25.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.Receiver" target="行为型设计模式.命令模式.Commond">
+      <point x="0.0" y="-26.5" />
+      <point x="475.5" y="83.0" />
+      <point x="389.0" y="83.0" />
+      <point x="25.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.Officer" target="行为型设计模式.命令模式.Commander">
+      <point x="-62.0" y="-26.5" />
+      <point x="129.25" y="181.0" />
+      <point x="124.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.Soldier" target="行为型设计模式.命令模式.Receiver">
+      <point x="-50.5" y="-26.5" />
+      <point x="574.75" y="181.0" />
+      <point x="542.8333333333333" y="181.0" />
+      <point x="67.33333333333331" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.TidyCommond" target="行为型设计模式.命令模式.Commond">
+      <point x="-56.33333333333334" y="-38.5" />
+      <point x="363.4166666666667" y="181.0" />
+      <point x="353.76851851851853" y="181.0" />
+      <point x="353.76851851851853" y="83.0" />
+      <point x="364.0" y="83.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.命令模式.Commander" target="行为型设计模式.命令模式.Commond">
+      <point x="0.0" y="-26.5" />
+      <point x="124.0" y="73.0" />
+      <point x="314.0" y="73.0" />
+      <point x="-50.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="55.0" y="176.0" />
+  <SelectedNodes>
+    <node>行为型设计模式.命令模式.Officer</node>
+    <node>行为型设计模式.命令模式.Soldier</node>
+    <node>行为型设计模式.命令模式.Commander</node>
+    <node>行为型设计模式.命令模式.Receiver</node>
+    <node>行为型设计模式.命令模式.TidyCommond</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

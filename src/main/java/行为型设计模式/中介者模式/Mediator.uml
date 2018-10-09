@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>行为型设计模式.中介者模式.Mediator</OriginalElement>
+  <nodes>
+    <node x="28.4375" y="242.0">行为型设计模式.中介者模式.User</node>
+    <node x="53.437499999999986" y="0.0">行为型设计模式.中介者模式.Mediator</node>
+    <node x="0.0" y="415.0">行为型设计模式.中介者模式.Buyer</node>
+    <node x="154.875" y="415.0">行为型设计模式.中介者模式.Seller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="行为型设计模式.中介者模式.Seller" target="行为型设计模式.中介者模式.User">
+      <point x="-44.33333333333334" y="-26.5" />
+      <point x="177.04166666666666" y="390.0" />
+      <point x="172.8125" y="390.0" />
+      <point x="28.875" y="61.5" />
+    </edge>
+    <edge source="行为型设计模式.中介者模式.Seller" target="行为型设计模式.中介者模式.Mediator">
+      <point x="44.33333333333334" y="-26.5" />
+      <point x="265.70833333333337" y="390.0" />
+      <point x="269.9375" y="390.0" />
+      <point x="269.9375" y="212.0" />
+      <point x="219.35416666666669" y="212.0" />
+      <point x="75.41666666666671" y="96.0" />
+    </edge>
+    <edge source="行为型设计模式.中介者模式.Buyer" target="行为型设计模式.中介者模式.Mediator">
+      <point x="-44.33333333333334" y="-26.5" />
+      <point x="22.166666666666657" y="390.0" />
+      <point x="17.9375" y="390.0" />
+      <point x="17.9375" y="212.0" />
+      <point x="68.52083333333331" y="212.0" />
+      <point x="-75.41666666666667" y="96.0" />
+    </edge>
+    <edge source="行为型设计模式.中介者模式.Mediator" target="行为型设计模式.中介者模式.User">
+      <point x="45.25000000000003" y="96.0" />
+      <point x="189.1875" y="222.0" />
+      <point x="230.5625" y="222.0" />
+      <point x="86.625" y="-61.5" />
+    </edge>
+    <edge source="行为型设计模式.中介者模式.Buyer" target="行为型设计模式.中介者模式.User">
+      <point x="0.0" y="-26.5" />
+      <point x="66.5" y="390.0" />
+      <point x="57.3125" y="390.0" />
+      <point x="-86.625" y="61.5" />
+    </edge>
+    <edge source="行为型设计模式.中介者模式.User" target="行为型设计模式.中介者模式.Mediator">
+      <point x="-86.625" y="-61.5" />
+      <point x="57.3125" y="222.0" />
+      <point x="98.68749999999999" y="222.0" />
+      <point x="-45.25" y="96.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="51.0" y="219.0" />
+  <SelectedNodes>
+    <node>行为型设计模式.中介者模式.Mediator</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

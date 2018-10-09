@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>结构型设计模式.适配器模式.对象适配.TargetableAdapter</OriginalElement>
+  <nodes>
+    <node x="22.500000000000014" y="126.0">结构型设计模式.适配器模式.对象适配.TargetableAdapter</node>
+    <node x="0.0" y="11.5">结构型设计模式.适配器模式.对象适配.Source</node>
+    <node x="156.0" y="0.0">结构型设计模式.适配器模式.对象适配.Targetable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型设计模式.适配器模式.对象适配.TargetableAdapter" target="结构型设计模式.适配器模式.对象适配.Source">
+      <point x="0.0" y="-50.0" />
+      <point x="34.0" y="26.5" />
+    </edge>
+    <edge source="结构型设计模式.适配器模式.对象适配.TargetableAdapter" target="结构型设计模式.适配器模式.对象适配.Targetable">
+      <point x="53.0" y="-50.0" />
+      <point x="155.0" y="101.0" />
+      <point x="226.5" y="101.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="79.5" y="117.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

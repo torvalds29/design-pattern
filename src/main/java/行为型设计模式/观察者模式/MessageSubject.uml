@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>行为型设计模式.观察者模式.MessageSubject</OriginalElement>
+  <nodes>
+    <node x="136.19270833333331" y="256.0">行为型设计模式.观察者模式.MessageSubject</node>
+    <node x="162.21874999999994" y="-29.0">行为型设计模式.观察者模式.Observer</node>
+    <node x="-76.0" y="118.5">行为型设计模式.观察者模式.ObserverTwo</node>
+    <node x="125.0" y="118.5">行为型设计模式.观察者模式.ObserverOne</node>
+    <node x="-329.0" y="84.0">行为型设计模式.观察者模式.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="行为型设计模式.观察者模式.MessageSubject" target="行为型设计模式.观察者模式.Observer">
+      <point x="29.125" y="-73.0" />
+      <point x="281.81770833333326" y="236.0" />
+      <point x="327.5" y="236.0" />
+      <point x="327.5" y="54.0" />
+      <point x="297.96875" y="54.0" />
+      <point x="45.25" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.观察者模式.MessageSubject" target="行为型设计模式.观察者模式.Subject">
+      <point x="-87.375" y="-73.0" />
+      <point x="165.31770833333331" y="236.0" />
+      <point x="-212.5" y="236.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="行为型设计模式.观察者模式.ObserverTwo" target="行为型设计模式.观察者模式.Observer">
+      <point x="0.0" y="-26.5" />
+      <point x="14.5" y="64.0" />
+      <point x="207.46875" y="64.0" />
+      <point x="-45.25" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.观察者模式.Subject" target="行为型设计模式.观察者模式.Observer">
+      <point x="0.0" y="-61.0" />
+      <point x="-212.5" y="54.0" />
+      <point x="177.30208333333326" y="54.0" />
+      <point x="-75.41666666666669" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.观察者模式.ObserverOne" target="行为型设计模式.观察者模式.Observer">
+      <point x="0.0" y="-26.5" />
+      <point x="215.5" y="64.0" />
+      <point x="237.63541666666663" y="64.0" />
+      <point x="-15.083333333333371" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="131.0" y="101.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

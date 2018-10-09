@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>创建型设计模式.工厂模式.简单工厂模式.ProductFactory</OriginalElement>
+  <nodes>
+    <node x="-153.0" y="-57.0">创建型设计模式.工厂模式.简单工厂模式.Product</node>
+    <node x="-206.53333333333333" y="149.0">创建型设计模式.工厂模式.简单工厂模式.ProductFactory</node>
+    <node x="-153.0" y="46.0">创建型设计模式.工厂模式.简单工厂模式.ProductTV</node>
+    <node x="-342.0" y="46.0">创建型设计模式.工厂模式.简单工厂模式.ProductController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="创建型设计模式.工厂模式.简单工厂模式.ProductController" target="创建型设计模式.工厂模式.简单工厂模式.Product">
+      <point x="0.0" y="-26.5" />
+      <point x="84.5" y="78.0" />
+      <point x="217.16666666666669" y="78.0" />
+      <point x="-56.33333333333334" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.简单工厂模式.ProductTV" target="创建型设计模式.工厂模式.简单工厂模式.Product">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.简单工厂模式.ProductFactory" target="创建型设计模式.工厂模式.简单工厂模式.ProductTV">
+      <point x="0.0" y="-26.5" />
+      <point x="263.9666666666667" y="181.0" />
+      <point x="273.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.简单工厂模式.ProductFactory" target="创建型设计模式.工厂模式.简单工厂模式.Product">
+      <point x="85.66666666666669" y="-26.5" />
+      <point x="349.6333333333333" y="181.0" />
+      <point x="368.5" y="181.0" />
+      <point x="368.5" y="78.0" />
+      <point x="329.83333333333337" y="78.0" />
+      <point x="56.33333333333337" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.简单工厂模式.ProductFactory" target="创建型设计模式.工厂模式.简单工厂模式.ProductController">
+      <point x="-85.66666666666669" y="-26.5" />
+      <point x="178.29999999999998" y="181.0" />
+      <point x="84.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="69.0" y="81.0" />
+  <SelectedNodes>
+    <node>创建型设计模式.工厂模式.简单工厂模式.Product</node>
+    <node>创建型设计模式.工厂模式.简单工厂模式.ProductFactory</node>
+    <node>创建型设计模式.工厂模式.简单工厂模式.ProductTV</node>
+    <node>创建型设计模式.工厂模式.简单工厂模式.ProductController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>行为型设计模式.状态模式.WaterCooler</OriginalElement>
+  <nodes>
+    <node x="203.0" y="138.0">行为型设计模式.状态模式.NullState</node>
+    <node x="0.0" y="103.0">行为型设计模式.状态模式.WaterCooler</node>
+    <node x="134.125" y="0.0">行为型设计模式.状态模式.State</node>
+    <node x="367.0" y="138.0">行为型设计模式.状态模式.FullState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="行为型设计模式.状态模式.NullState" target="行为型设计模式.状态模式.State">
+      <point x="0.0" y="-26.5" />
+      <point x="275.0" y="83.0" />
+      <point x="224.125" y="83.0" />
+      <point x="18.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.状态模式.WaterCooler" target="行为型设计模式.状态模式.State">
+      <point x="45.75" y="-61.5" />
+      <point x="137.25" y="83.0" />
+      <point x="188.125" y="83.0" />
+      <point x="-18.0" y="26.5" />
+    </edge>
+    <edge source="行为型设计模式.状态模式.FullState" target="行为型设计模式.状态模式.State">
+      <point x="0.0" y="-26.5" />
+      <point x="439.0" y="73.0" />
+      <point x="260.125" y="73.0" />
+      <point x="54.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="61.0" y="81.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

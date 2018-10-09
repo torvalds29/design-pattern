@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>结构型设计模式.桥接模式.ConnationBrigeImpl</OriginalElement>
+  <nodes>
+    <node x="428.0" y="161.0">结构型设计模式.桥接模式.MysqlConnation</node>
+    <node x="111.98055555555555" y="322.0">结构型设计模式.桥接模式.ConnationBrigeImpl</node>
+    <node x="248.89722222222224" y="0.0">结构型设计模式.桥接模式.Connation</node>
+    <node x="0.0" y="126.0">结构型设计模式.桥接模式.ConnationBrige</node>
+    <node x="262.0" y="161.0">结构型设计模式.桥接模式.OracleConnation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型设计模式.桥接模式.MysqlConnation" target="结构型设计模式.桥接模式.Connation">
+      <point x="0.0" y="-38.0" />
+      <point x="501.0" y="106.0" />
+      <point x="351.09722222222223" y="106.0" />
+      <point x="29.19999999999999" y="38.0" />
+    </edge>
+    <edge source="结构型设计模式.桥接模式.ConnationBrigeImpl" target="结构型设计模式.桥接模式.Connation">
+      <point x="54.666666666666686" y="-38.0" />
+      <point x="248.64722222222224" y="297.0" />
+      <point x="584.5" y="297.0" />
+      <point x="584.5" y="96.0" />
+      <point x="380.2972222222222" y="96.0" />
+      <point x="58.39999999999998" y="38.0" />
+    </edge>
+    <edge source="结构型设计模式.桥接模式.OracleConnation" target="结构型设计模式.桥接模式.Connation">
+      <point x="0.0" y="-38.0" />
+      <point x="335.0" y="106.0" />
+      <point x="321.89722222222224" y="106.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="结构型设计模式.桥接模式.ConnationBrige" target="结构型设计模式.桥接模式.Connation">
+      <point x="60.5" y="-73.0" />
+      <point x="181.5" y="106.0" />
+      <point x="292.69722222222225" y="106.0" />
+      <point x="-29.19999999999999" y="38.0" />
+    </edge>
+    <edge source="结构型设计模式.桥接模式.ConnationBrigeImpl" target="结构型设计模式.桥接模式.ConnationBrige">
+      <point x="2.8421709430404007E-14" y="-38.0" />
+      <point x="193.98055555555558" y="297.0" />
+      <point x="181.5" y="297.0" />
+      <point x="60.5" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="439.0" y="161.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

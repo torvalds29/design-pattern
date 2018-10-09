@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>创建型设计模式.工厂模式.工厂方法模式.Product</OriginalElement>
+  <nodes>
+    <node x="432.0" y="103.0">创建型设计模式.工厂模式.工厂方法模式.ProductTV</node>
+    <node x="0.0" y="103.0">创建型设计模式.工厂模式.工厂方法模式.ProductController</node>
+    <node x="393.75" y="206.0">创建型设计模式.工厂模式.工厂方法模式.ProductTVFactory</node>
+    <node x="216.5" y="0.0">创建型设计模式.工厂模式.工厂方法模式.Product</node>
+    <node x="190.0" y="103.0">创建型设计模式.工厂模式.工厂方法模式.ProductFactory</node>
+    <node x="54.0" y="206.0">创建型设计模式.工厂模式.工厂方法模式.ProductControllerFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductControllerFactory" target="创建型设计模式.工厂模式.工厂方法模式.Product">
+      <point x="0.0" y="-26.5" />
+      <point x="165.0" y="181.0" />
+      <point x="179.5" y="181.0" />
+      <point x="179.5" y="83.0" />
+      <point x="267.2" y="83.0" />
+      <point x="-33.80000000000001" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductControllerFactory" target="创建型设计模式.工厂模式.工厂方法模式.ProductFactory">
+      <point x="74.0" y="-26.5" />
+      <point x="239.0" y="181.0" />
+      <point x="245.5" y="181.0" />
+      <point x="-55.5" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductControllerFactory" target="创建型设计模式.工厂模式.工厂方法模式.ProductController">
+      <point x="-74.0" y="-26.5" />
+      <point x="91.0" y="181.0" />
+      <point x="84.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductController" target="创建型设计模式.工厂模式.工厂方法模式.Product">
+      <point x="0.0" y="-26.5" />
+      <point x="84.5" y="73.0" />
+      <point x="233.4" y="73.0" />
+      <point x="-67.6" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductTVFactory" target="创建型设计模式.工厂模式.工厂方法模式.ProductTV">
+      <point x="0.0" y="-26.5" />
+      <point x="504.75" y="181.0" />
+      <point x="516.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductTVFactory" target="创建型设计模式.工厂模式.工厂方法模式.Product">
+      <point x="74.0" y="-26.5" />
+      <point x="578.75" y="181.0" />
+      <point x="611.5" y="181.0" />
+      <point x="611.5" y="73.0" />
+      <point x="368.6" y="73.0" />
+      <point x="67.60000000000002" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductFactory" target="创建型设计模式.工厂模式.工厂方法模式.Product">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductTV" target="创建型设计模式.工厂模式.工厂方法模式.Product">
+      <point x="0.0" y="-26.5" />
+      <point x="516.5" y="83.0" />
+      <point x="334.8" y="83.0" />
+      <point x="33.80000000000001" y="26.5" />
+    </edge>
+    <edge source="创建型设计模式.工厂模式.工厂方法模式.ProductTVFactory" target="创建型设计模式.工厂模式.工厂方法模式.ProductFactory">
+      <point x="-74.0" y="-26.5" />
+      <point x="430.75" y="181.0" />
+      <point x="356.5" y="181.0" />
+      <point x="55.5" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="47.0" y="179.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

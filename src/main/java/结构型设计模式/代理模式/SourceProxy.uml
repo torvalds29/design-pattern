@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>结构型设计模式.代理模式.SourceProxy</OriginalElement>
+  <nodes>
+    <node x="40.72916666666667" y="0.0">结构型设计模式.代理模式.Sourceable</node>
+    <node x="-367.59411764705874" y="140.75294117647059">结构型设计模式.代理模式.Source</node>
+    <node x="22.270833333333343" y="252.0">结构型设计模式.代理模式.SourceProxy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="结构型设计模式.代理模式.SourceProxy" target="结构型设计模式.代理模式.Source">
+      <point x="-50.33333333333336" y="-73.0" />
+      <point x="47.437499999999986" y="227.0" />
+      <point x="34.0" y="227.0" />
+      <point x="-34.0" y="38.0" />
+    </edge>
+    <edge source="结构型设计模式.代理模式.Source" target="结构型设计模式.代理模式.Sourceable">
+      <point x="0.0" y="-38.0" />
+      <point x="68.0" y="101.0" />
+      <point x="74.72916666666667" y="101.0" />
+      <point x="-34.0" y="38.0" />
+    </edge>
+    <edge source="结构型设计模式.代理模式.SourceProxy" target="结构型设计模式.代理模式.Sourceable">
+      <point x="50.33333333333333" y="-73.0" />
+      <point x="148.10416666666669" y="227.0" />
+      <point x="146.5" y="227.0" />
+      <point x="146.5" y="101.0" />
+      <point x="142.72916666666669" y="101.0" />
+      <point x="34.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8133971291866029" x="88.5" y="189.0" />
+  <SelectedNodes>
+    <node>结构型设计模式.代理模式.Source</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
